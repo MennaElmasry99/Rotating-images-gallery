@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating image gallery</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="image-container">
+        <span style="--i: 1">
+          <img src="./images/1.jpg"  alt="gallery-img1"/>
+        </span>
+        <span style="--i: 2">
+          <img src="./images/2.jpg" alt="gallery-img2"/>
+        </span>
+        <span style="--i: 3">
+          <img src="./images/3.jpg" alt="gallery-img3"/>
+        </span>
+        <span style="--i: 4">
+          <img src="./images/4.jpg" alt="gallery-img4" />
+        </span>
+        <span style="--i: 5">
+          <img src="./images/5.jpg" alt="gallery-img5"/>
+        </span>
+        <span style="--i: 6">
+          <img src="./images/6.jpg" alt="gallery-img6"/>
+        </span>
+        <span style="--i: 7">
+          <img src="./images/7.jpg" alt="gallery-img7"/>
+        </span>
+        <span style="--i: 8">
+          <img src="./images/8.jpg" alt="gallery-img8"/>
+        </span>
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="prev"><i class="fa-solid fa-arrow-left"></i> Prev</button>
+        <button class="btn" id="next">Next <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
